@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="eS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <title>CALCULADORA</title>
+</head>
+<body>
+   
+   
+    <form id "formulario" name="" method="post">
+
+
+        <labe>Número 1:</labe> <input id="num1" type="number" autofocus  />
+        <labe>Número 2:</labe><input id="num2" type="number" autofocus />
+        <br />
+        <p>El resultado de tu operacion es: <span id="resultado"></span></p>
+        <br />
+        <button class="btn btn-primary" type="button" onclick="sumar();">SUMA</button>
+        <button class="btn btn-primary" type="button" onclick="restar();">RESTA</button>
+        <button class="btn btn-primary" type="button" onclick="multiplicar();">MULTIPLICACION</button>
+        <button class="btn btn-primary" type="button" onclick="dividir();">DIVIDIR</button>
+        <button class="btn btn-primary" type="button" onclick="borrar();">BORRAR</button>
+        <br />
+        <br />
+
+      
+    </form>
+    
+    <labe>Ingresa el numero de la Tabla de Multiplicar:</labe><input id="num3" type="number" autofocus />
+    <button class="btn btn-primary" type="button" onclick="tabla();">TABLA DE MULTIPLICAR</button>
+
+    <script src="JS/calculadora.js"></script>
+
+    <H1 align="left">  <a href="inicio.html" style="color:rgb(21, 161, 91); text-align: right; font-family: 'Style Script', Arial Narrow;"> Inicio</a></H1> 
+</body>
+</html>
